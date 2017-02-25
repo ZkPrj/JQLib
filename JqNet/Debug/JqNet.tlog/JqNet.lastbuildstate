@@ -1,0 +1,6 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+<<<<<<< HEAD
+Debug|Win32|G:\Project\ZkLib\JQLib\|
+=======
+Debug|Win32|D:\Prj\JQLib\|
+>>>>>>> 2ae37f6d33191c2c2e1bade52f8a08437fd68c5e

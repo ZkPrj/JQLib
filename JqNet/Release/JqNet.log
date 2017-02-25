@@ -1,0 +1,18 @@
+﻿生成启动时间为 2017/2/17 9:39:20。
+     1>项目“D:\Prj\JQLib\JqNet\JqNet.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\Soft_Install\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt JqTcpClient.cpp
+         JqTcpClient.cpp
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+       Lib:
+         D:\Soft_Install\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\Output\Libs\Release\JqNet.lib" /NOLOGO /LTCG Release\JqTcpClient.obj
+         JqNet.vcxproj -> D:\Prj\JQLib\JqNet\..\Output\Libs\Release\JqNet.lib
+     1>已完成生成项目“D:\Prj\JQLib\JqNet\JqNet.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.08

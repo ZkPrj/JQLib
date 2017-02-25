@@ -1,0 +1,38 @@
+<<<<<<< HEAD
+﻿生成启动时间为 2017/2/15 21:31:21。
+     1>项目“G:\Project\ZkLib\JQLib\JqNet\JqNet.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt JqTcpClient.cpp
+=======
+﻿生成启动时间为 2017/2/17 9:42:41。
+     1>项目“D:\Prj\JQLib\JqNet\JqNet.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets(76,5): warning : 文件“d:\prj\jqlib\jqnet\debug\vc120.pdb”正由另一进程使用，因此该进程无法访问此文件。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\Soft_Install\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt JqTcpClient.cpp
+>>>>>>> 2ae37f6d33191c2c2e1bade52f8a08437fd68c5e
+         JqTcpClient.cpp
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+<<<<<<< HEAD
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Project\ZkLib\JQLib\Debug\JqNet.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Project\ZkLib\JQLib\Debug\JqNet.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Project\ZkLib\JQLib\Debug\JqNet.lib" /MACHINE:X86 Debug\JqTcpClient.obj
+         Debug\main.obj
+         JqNet.vcxproj -> G:\Project\ZkLib\JQLib\Debug\JqNet.exe
+     1>已完成生成项目“G:\Project\ZkLib\JQLib\JqNet\JqNet.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.94
+=======
+       Lib:
+         D:\Soft_Install\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\Output\Libs\Debug\JqNet.lib" /NOLOGO Debug\JqTcpClient.obj
+         JqNet.vcxproj -> D:\Prj\JQLib\JqNet\..\Output\Libs\Debug\JqNet.lib
+     1>已完成生成项目“D:\Prj\JQLib\JqNet\JqNet.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.07
+>>>>>>> 2ae37f6d33191c2c2e1bade52f8a08437fd68c5e
